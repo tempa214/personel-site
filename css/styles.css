@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family:'lora','DM mono', monospace , serif;
+}
+p{
+    line-height: 2;
+}
+.top_container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding: 100px ;
+}
+
+h1{
+    font-size: 5.625rem;
+    color: #66BFBF;
+    margin-top: 50px;
+    font-family: 'Sacramento', 'DM mono', serif;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3
+{
+    color: #11999E;
+}
+span{
+    color: red;
+    font-style: italic;
+}
+hr {
+    width: 10%;
+    border: 0;
+    border-top: 10px dotted #EAF6F6;
+    margin: 100px auto;
+}
+.top-cloud{
+    position: absolute;
+    right: 600px;
+    top: 80px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+}
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+}
+.skill-row{
+    width: 60%;
+    margin: 100px auto;
+    text-align: left;
+}
+.chillies-img, .computer-img{
+    width: 25%;
+}
+.chillies-img{
+    float: right;
+    margin-left: 30px;
+}
+.computer-img{
+    float: left;
+    margin-right: 30px;
+}
+.intro{
+    color: #40514E;
+}
+.footer{
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+    margin-top: 50px;
+}
+.info{
+    color: #11999E;
+    padding: 30px;
+    text-decoration: none;
+}
+.info:hover{
+    color: white;
+}
+.contact-btn {
+    border-radius: 8px;
+    background-image: linear-gradient(to right,#11cdd4,#11999e);
+    padding: 15px;
+    color: white;
+}
+.contact-btn:hover{
+    background-image: linear-gradient(to right, #30e3cb,#2bc4ad);
+    color: black;
+
+}
+.intro{
+    width: 400px;
+    margin: 20px auto 0px auto;
+}
+.copy-right{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+
